@@ -7,7 +7,7 @@ Raw data of the REST-meta-MDD II (train set), REST-meta-MDD I (test set) and Sta
   * [REST-meta-MDD2_sample.xlsx](REST-meta-MDD2_sample.xlsx). 10 samples message of test set
   * [fALFF_IS001-1-0001.nii.gz](fALFF_IS001-1-0001.nii.gz)-[fALFF_IS001-1-0025.nii.gz](fALFF_IS001-1-0025.nii.gz). 25 samples of data from the train set 
 
-* [a_raw_data/sample files](a_raw_data/sample files/)
+* [a_raw_data/ sample files](a_raw_data/ sample files/)
 
 
 * [requirments.txt](requirements.txt) A list of the required environment and python packages.
