@@ -33,7 +33,7 @@ The main code blocks
    * [h_auxilary_functions](source/h_auxilary_functions.py). Auxilary functions used in the program
    * [i_HSIC](source/i_HSIC.py). Functions related to HSIC for disentanglement
    * [j_LR_classification](source/j_LR_classification.py). Performs 'TreatmentResponsive' classification using logistic regression
-   * [k_rTMS_regression](source/k_rTMS_regression.py). Conducts rTMS dataset regression
+   * [k_rTMS_regression](source/k_rTMS_regression.py). Conducts rTMS treatments regression
    * [l_permutation_test](source/l_permutation_test.py). Conducts permutation test-validated for LR classification and rTMS regression
 
 
