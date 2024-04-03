@@ -79,5 +79,4 @@ variance_rmse = statistics.variance(test_rmse)
 variance_pcc = statistics.variance(test_pcc)
 print("mean_MAE: {:.4f}, mean_RMSE: {:.4f}, mean_PCC: {:.4f}".format(mean_mae, mean_rmse, mean_pcc))
 print("var_MAE: {:.4f}, var_RMSE: {:.4f}, var_PCC: {:.4f}".format(variance_mae, variance_rmse, variance_pcc))
-a=1
 
