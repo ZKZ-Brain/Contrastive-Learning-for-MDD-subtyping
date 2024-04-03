@@ -25,7 +25,7 @@ Save latent features of input data, extracted by '[source/e_extract_latent_featu
 The main code blocks
    * [a_format_conversion](source/a_format_conversion.py). Converts the format of raw datasets and saves as .npz files
    * [b_model](source/b_model.py). Defines contrastive variational autoencoder PyTorch models
-   * [c_load_data](source/c_load_data.py). Defines contrastive variational autoencoder PyTorch models
+   * [c_load_data](source/c_load_data.py). Loads and selects datasets
    * [d_train_CVAE](source/d_train_CVAE.py). Trains the CAVE model and saves weights into '[c_torch_weight](c_torch_weight/)'
    * [e_extract_latent_feature](source/e_extract_latent_feature.py).  Extracts and saves latent z input from two encoders (Shared & Specific)
    * [f_RSA](source/f_RSA.py). Conducts representational similarity analysis for two types of latent z
