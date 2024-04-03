@@ -25,18 +25,18 @@ Save latent features of input data, extracted by '[source/e_extract_latent_featu
 
 * [source/](source/)
 The main code blocks
-   *[a_format_conversion](source/a_format_conversion.py).
-   *[b_CVAE_model](source/b_CVAE_model.py).
-   *[c_load_data](source/c_load_data.py).
-   *[d_train_CVAE](source/d_train_CVAE.py).
-   *[e_extract_latent_feature](source/e_extract_latent_feature.py).
-   *[f_RSA](source/f_RSA.py).
-   *[g_culster](source/g_culster.py).
-   *[h_auxilary_function](source/h_auxilary_function.py).
-   *[i_HSIC](source/i_HSIC.py).
-   *[j_LR_classification](source/j_LR_classification.py).
-   *[k_rTMS_regression](source/k_rTMS_regression.py).
-   *[l_permutation_test](source/l_permutation_test.py). 
+   * [a_format_conversion](source/a_format_conversion.py).
+   * [b_CVAE_model](source/b_CVAE_model.py).
+   * [c_load_data](source/c_load_data.py).
+   * [d_train_CVAE](source/d_train_CVAE.py).
+   * [e_extract_latent_feature](source/e_extract_latent_feature.py).
+   * [f_RSA](source/f_RSA.py).
+   * [g_culster](source/g_culster.py).
+   * [h_auxilary_function](source/h_auxilary_function.py).
+   * [i_HSIC](source/i_HSIC.py).
+   * [j_LR_classification](source/j_LR_classification.py).
+   * [k_rTMS_regression](source/k_rTMS_regression.py).
+   * [l_permutation_test](source/l_permutation_test.py). 
 
 
 
