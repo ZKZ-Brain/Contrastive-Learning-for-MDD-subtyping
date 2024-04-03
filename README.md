@@ -24,7 +24,7 @@ Save latent features of input data, extracted by '[source/e_extract_latent_featu
   * [latent_z_train512](d_results_of_z/latent_z_train512.zip), [latent_z_rTMS512](d_results_of_z/latent_z_rTMS512.npz). latent z for the trainset and rTMS set respectively,  dimension=512
 
 * [source/](source/)
-  The main code blocks
+The main code blocks
    *[a_format_conversion](source/a_format_conversion.py).
    *[b_CVAE_model](source/b_CVAE_model.py).
    *[c_load_data](source/c_load_data.py).
