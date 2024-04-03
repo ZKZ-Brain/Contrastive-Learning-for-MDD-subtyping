@@ -25,18 +25,18 @@ Save latent features of input data, extracted by '[source/e_extract_latent_featu
 
 * [source/](source/)
 The main code blocks
-   * [a_format_conversion](source/a_format_conversion.py).
-   * [b_model](source/b_model.py).
-   * [c_load_data](source/c_load_data.py).
-   * [d_train_CVAE](source/d_train_CVAE.py).
-   * [e_extract_latent_feature](source/e_extract_latent_feature.py).
-   * [f_RSA](source/f_RSA.py).
-   * [g_cluster](source/g_cluster.py).
-   * [h_auxilary_functions](source/h_auxilary_functions.py).
-   * [i_HSIC](source/i_HSIC.py).
-   * [j_LR_classification](source/j_LR_classification.py).
-   * [k_rTMS_regression](source/k_rTMS_regression.py).
-   * [l_permutation_test](source/l_permutation_test.py). 
+   * [a_format_conversion](source/a_format_conversion.py). Converts the format of raw datasets and saves as .npz files
+   * [b_model](source/b_model.py). Defines contrastive variational autoencoder PyTorch models
+   * [c_load_data](source/c_load_data.py). Defines contrastive variational autoencoder PyTorch models
+   * [d_train_CVAE](source/d_train_CVAE.py). Trains the CAVE model and saves weights into '[c_torch_weight](c_torch_weight/)'
+   * [e_extract_latent_feature](source/e_extract_latent_feature.py).  Extracts and saves latent z input from two encoders (Shared & Specific)
+   * [f_RSA](source/f_RSA.py). Conducts representational similarity analysis for two types of latent z
+   * [g_cluster](source/g_cluster.py). Clusters MDD patients using latent z
+   * [h_auxilary_functions](source/h_auxilary_functions.py). Auxilary functions used in the program
+   * [i_HSIC](source/i_HSIC.py). Functions related to HSIC for disentanglement
+   * [j_LR_classification](source/j_LR_classification.py). Performs 'TreatmentResponsive' classification using logistic regression
+   * [k_rTMS_regression](source/k_rTMS_regression.py). Conducts rTMS dataset regression
+   * [l_permutation_test](source/l_permutation_test.py). Conducts permutation test-validated for LR classification and rTMS regression
 
 
 
