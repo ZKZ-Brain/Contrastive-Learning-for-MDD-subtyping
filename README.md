@@ -23,7 +23,20 @@ Save latent features of input data, extracted by '[source/e_extract_latent_featu
   * [latent_z_train](d_results_of_z/latent_z_train.npz), [latent_z_test](d_results_of_z/latent_z_test.npz), [latent_z_rTMS](d_results_of_z/latent_z_rTMS.npz).  latent z for the trainset, testset and rTMS set respectively, dimension=32
   * [latent_z_train512](d_results_of_z/latent_z_train512.zip), [latent_z_rTMS512](d_results_of_z/latent_z_rTMS512.npz). latent z for the trainset and rTMS set respectively,  dimension=512
 
-
+* [source/](source/)
+  The main code blocks
+  *[a_format_conversion](source/a_format_conversion.py).
+  *[b_CVAE_model](source/b_CVAE_model.py).
+  *[c_load_data](source/c_load_data.py).
+  *[d_train_CVAE](source/d_train_CVAE.py).
+  *[e_extract_latent_feature](source/e_extract_latent_feature.py).
+  *[f_RSA](source/f_RSA.py).
+  *[g_culster](source/g_culster.py).
+  *[h_auxilary_function](source/h_auxilary_function.py).
+  *[i_HSIC](source/i_HSIC.py).
+  *[j_LR_classification](source/j_LR_classification.py).
+  *[k_rTMS_regression](source/k_rTMS_regression.py).
+  *[l_permutation_test](source/l_permutation_test.py). 
 
 
 
